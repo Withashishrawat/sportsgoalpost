@@ -1,0 +1,33 @@
+/* for phone */
+@media screen and (max-width :425px ) {
+    .logo{
+        font-size: small;
+    }
+    .search-bar input{
+     display: none;
+    }
+    .search-bar button {
+        display: none;
+    }
+
+    .nav-links{
+        /* flex-direction: column; */
+        display: none;
+        
+    }
+
+    .categories{
+        padding:0;
+    }
+    .category{
+        width:50%;
+        margin-top: 10px;
+    }
+    .category img{
+        width: 90%;
+    }
+
+    .primary-btn{
+        margin:20px;
+    }
+}
